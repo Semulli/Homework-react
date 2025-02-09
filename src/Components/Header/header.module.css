@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  /* border-bottom: 1px solid #171a23; */
+
+ padding: 35px 70px;
+
+}
+
+.header h1 {
+  font-size: 20px;
+  font-weight: 590;
+  margin: 0;
+
+  color: #45b0a4;
+}

@@ -1,0 +1,62 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 50px;
+  gap: 30px;
+  border-bottom-right-radius: 50%;
+
+}
+
+.left {
+  width: 600px;
+}
+
+.main img {
+  width: 500px;
+  height: 600px;
+  border-radius: 20px;
+}
+
+.head_text {
+  font-size: 16px;
+  color: #42abad;
+  font-weight: 300;
+}
+
+.title {
+  font-size: 70px;
+}
+
+.btn_part {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.play_btn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn2 {
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+span {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+  color: #495966;
+  line-height: 25px;
+}

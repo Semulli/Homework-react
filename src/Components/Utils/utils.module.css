@@ -1,0 +1,52 @@
+.btn1 {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 18px;
+  background-color: #45b0a4;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+  animation: fadeAnimation 2s infinite ease-in-out;
+}
+
+@keyframes fadeAnimation {
+  0% {
+    background-color: #45b0a4;
+    color: #000000;
+  }
+  50% {
+    background-color: #9fe9e0;
+    color: #717070;
+  }
+  100% {
+    background-color: #45b0a4;
+    color: #000000;
+  }
+}
+
+.btn1:hover {
+  transition: all 0.3s ease;
+  background-color: #d6ebe8 !important;
+}
+
+.btn2 {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 18px;
+  background-color: #00000010;
+  cursor: pointer;
+  color: #000;
+}
+
+.link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.link:hover {
+  transition: all 0.3s ease;
+  color: grey;
+}
